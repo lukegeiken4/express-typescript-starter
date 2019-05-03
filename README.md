@@ -1,6 +1,8 @@
 # Express API Typescript Starter
 Starter project for an Express Typescript API.
+
 Utilizes npm module Controlli for controller response and param handling.
+Checkout the [Starter Controller](https://github.com/lukegeiken4/express-typescript-starter/blob/master/src/controllers/starter.controller.ts) to see Controlli in action.
 
 ## Sections
 - [Technology](#tech)  
