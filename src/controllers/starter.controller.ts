@@ -30,7 +30,7 @@ export class StarterController {
             // Or fail if they arent the correct type
             let params = HandleQueryParams(
                 req,
-                ['test-param'],
+                ['test'],
                 [],
                 [],
                 [],
