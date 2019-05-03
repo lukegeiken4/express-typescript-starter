@@ -24,8 +24,7 @@ export class StarterController {
 	public exampleGetEndpoint(req: Request, res: Response) {
 
         // Controller handler that handles controller error and data responses
-		HandleResponse(res, new Promise((resolve, reject) => {
-
+        HandleResponse(res, new Promise((resolve, reject) => {
             // Query param handler to help transform query params to their correc types
             // Or fail if they arent the correct type
             let params = HandleQueryParams(
