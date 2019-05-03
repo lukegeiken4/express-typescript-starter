@@ -1,0 +1,5 @@
+{
+  "database": {
+    "connectionString": "<insert-connection-string-here>"
+  }
+}

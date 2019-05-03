@@ -1,0 +1,39 @@
+{
+  "name": "express-typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-w": "tsc -w",
+    "serve": "node dist/server.js",
+    "start": "npm run build && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukegeiken4/express-typescript-starter"
+  },
+  "author": "luke geiken",
+  "license": "MIT",
+  "devDependencies": {
+    "config": "^2.0.1",
+    "mongo": "^0.1.0",
+    "nodemon": "^1.18.11",
+    "pm2": "^3.5.0",
+    "rxjs": "^6.5.1",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/config": "0.0.34",
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.3.27",
+    "controlli": "^1.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "mongoose": "^5.5.4",
+    "pug": "^2.0.3"
+  }
+}
