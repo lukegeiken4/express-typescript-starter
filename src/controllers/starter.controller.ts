@@ -10,18 +10,18 @@ import { StarterService } from '../internal-services/starter.service';
 
 export class StarterController {
 
-	private readonly starterService: StarterService;
+    private readonly starterService: StarterService;
 
-	constructor() {
+    constructor() {
         this.starterService = new StarterService();
-	}
+    }
 
-	/**
-	 * Example GET endpoint
-	 * @param req request obj
-	 * @param res response obj
-	 */
-	public exampleGetEndpoint(req: Request, res: Response) {
+    /**
+     * Example GET endpoint
+     * @param req request obj
+     * @param res response obj
+     */
+    public exampleGetEndpoint(req: Request, res: Response) {
 
         // Controller handler that handles controller error and data responses
         HandleResponse(res, new Promise((resolve, reject) => {
